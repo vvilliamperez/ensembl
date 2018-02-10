@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1006731058091",
+    "firebase_url": "https://ensembl-beta.firebaseio.com",
+    "project_id": "ensembl-beta",
+    "storage_bucket": "ensembl-beta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006731058091:android:f790135b7f9dd9c3",
+        "android_client_info": {
+          "package_name": "com.vvilliamperez.ensembl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006731058091-b5esnt37ahg7bnsjpqigfc10mkchhr5e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vvilliamperez.ensembl",
+            "certificate_hash": "ccc8fdab269b825af831abccec9b8e99dfc64ce9"
+          }
+        },
+        {
+          "client_id": "1006731058091-d07bf6hpgpt5r2llpbtjeppcchohsoro.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq4LEVZgvCGBBcQo_haHLbWIR7HrlIw40"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006731058091-d07bf6hpgpt5r2llpbtjeppcchohsoro.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
