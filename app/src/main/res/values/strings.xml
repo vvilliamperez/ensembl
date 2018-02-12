@@ -5,4 +5,8 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="launchericon">Launcher Icon</string>
+    <string name="UserName">User Name</string>
+    <string name="userIcon">User\'s Icon</string>
+    <string name="userEmail">User\'s Email</string>
 </resources>
