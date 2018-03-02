@@ -1,5 +1,7 @@
 package com.vvilliamperez.ensembl;
 
+import android.app.Fragment;
+import android.app.FragmentManager;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -72,6 +74,8 @@ public class MainActivity extends AppCompatActivity
     }
     
 
+
+
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -109,20 +113,38 @@ public class MainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
+        Fragment fragment = null;
+        Class fragmentClass;
 
         if (id == R.id.nav_ensembles) {
             // Handle the ensembles action
         } else if (id == R.id.nav_messages) {
-
+            fragmentClass = MessagesFragment.class;
         } else if (id == R.id.nav_payments) {
-
+            fragmentClass = MessagesFragment.class;
         } else if (id == R.id.nav_settings) {
-
+            fragmentClass = MessagesFragment.class;
         } else if (id == R.id.nav_share) {
-
+            fragmentClass = MessagesFragment.class;
         } else if (id == R.id.nav_send) {
-
+            fragmentClass = MessagesFragment.class;
         }
+        fragmentClass = MessagesFragment.class;
+
+//
+//        try{
+//            fragment = (Fragment) fragmentClass.newInstance();
+//        } catch (Exception e){
+//            e.printStackTrace();
+//        }
+//
+//        FragmentManager fragmentManager = getSupportFragmentManager();
+//        fragmentManager.beginTransaction().replace(R.id.flContent, fragment).commit();
+//
+//        item.setChecked(true);
+//
+//        setTitle(item.getTitle());
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
